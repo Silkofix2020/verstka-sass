@@ -1,0 +1,81 @@
+.head {
+  padding-top: 128px;
+  &-title {
+    font-weight: 700;
+    font-size: 112px;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    &_grad {
+      background-image: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  &-content {
+    width: 694px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 136px;
+    padding-bottom: 188px;
+    &__title {
+      margin: 0;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+    }
+    &__buttons {
+      margin: 0 auto;
+      width: 652px;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 0 21px;
+    }
+    &__btn {
+      width: 313px;
+      padding: 24px 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      &:nth-child(2) {
+        color: #707070;
+        border: 1px solid #707070;
+        &:hover {
+          color: #ffffff;
+          background: #326cf9;
+          border: none;
+        }
+      }
+    }
+  }
+  &-counter {
+    width: 496px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    &__dot {
+      width: 17px;
+      height: 17px;
+      border-radius: 100%;
+      background: rgb(15 198 92);
+      box-shadow: 0px 0px 0px 6px rgb(15 198 92 / 20%);
+      animation-duration: 2s;
+      animation-name: pulsar;
+      animation-iteration-count: infinite;
+    }
+    &__count {
+      padding: 0 16px;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 38px;
+    }
+    &__text {
+      margin: 0;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 38px;
+      color: #707070;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.btn {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  background: none;
+  cursor: pointer;
+  border: #326cf9;
+  &_blue {
+    background: #326cf9;
+  }
+  &:hover {
+    box-shadow: 0 0 15px 10px rgb(16 114 255 / 20%);
+  }
+}
