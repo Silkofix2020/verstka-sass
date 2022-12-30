@@ -97,16 +97,18 @@
       </div>
       <div class="instruction-steps">
         <div class="instruction-step">
-          <h2 class="instruction-step__subtitle">STEP 1</h2>
-          <h1 class="title instruction-step__title">Connect Your Content</h1>
-          <p class="instruction-step__text">
-            Bring all of your content together and get a Homepage that
-            automatically updates whenever you create anywhere online.
-          </p>
-          <button class="btn">View Avaliable Sources</button>
+          <div class="instruction-step__head">
+            <h2 class="instruction-step__subtitle">STEP 1</h2>
+            <h1 class="title instruction-step__title">Connect Your Content</h1>
+            <p class="instruction-step__text">
+              Bring all of your content together and get a Homepage that
+              automatically updates whenever you create anywhere online.
+            </p>
+            <button class="btn btn_no-color">View Avaliable Sources</button>
+          </div>
           <div class="instruction-step__content step-content">
             <div class="step-content__item">
-              <h2 class="step-content__subtitle">Your Homepage</h2>
+              <h3 class="step-content__subtitle">Your Homepage</h3>
               <h1 class="step-content__title">
                 Your Content. All in
                 <span class="step-content__title step-content__title_blue"
@@ -114,15 +116,17 @@
                 >
               </h1>
               <ul class="step-content__list">
-                <li class="step-content__list-item">
+                <li value="1" class="step-content__list-item">
                   Bring all of your content together into one homepage.
                 </li>
-                <li class="step-content__list-item">
+                <li value="2" class="step-content__list-item">
                   Your page automatically updates whenever you create.
                 </li>
               </ul>
-              <button class="btn btn_blue step-btn">Get Started Now</button>
-              <button class="btn step-btn">View A Demo</button>
+              <div class="step-content__btns">
+                <button class="btn btn_blue btn-step">Get Started Now</button>
+                <button class="btn btn-step btn_gray">View A Demo</button>
+              </div>
             </div>
             <div class="step-content__item">
               <img src="/img/Image-4.png" alt="" />
@@ -138,30 +142,40 @@
             Share your Wavium homepage link with your followers, and we'll
             handle the rest.
           </p>
-          <button class="btn">View Avaliable Sources</button>
-          <div class="instruction-step__content step-content">
-            <div class="step-content__item">
-              <h2 class="step-content__subtitle">Your Homepage</h2>
-              <h1 class="step-content__title">
-                Your Content. All in
-                <span class="step-content__title step-content__title_blue"
-                  >One Spot</span
+          <div class="instruction-second-step">
+            <div class="instruction-second-step__item first-block">
+              <h3
+                class="instruction-second-step__item-subtitle first-block-subtitle"
+              >
+                One Link
+              </h3>
+              <h1 class="instruction-second-step__item-title first-block-title">
+                <span
+                  class="instruction-second-step__item-title first-block-title_gray"
+                  >ALL You Create.</span
                 >
+                One Link
               </h1>
-              <ul class="step-content__list step-list">
-                <li class="step-list__item">
-                  Bring all of your content together into one homepage.
-                </li>
-                <li class="step-list__item">
-                  Your page automatically updates whenever you create.
-                </li>
-              </ul>
-              <button class="btn btn_blue step-btn">Get Started Now</button>
-              <button class="btn step-btn">View A Demo</button>
+              <img
+                class="instruction-second-step__item-img"
+                src="/img/Mobile.png"
+                alt="mobile"
+              />
             </div>
-            <div class="step-content__item">
-              <img src="/img/Image-4.png" alt="" />
-              <div class="block"></div>
+            <div class="instruction-second-step__item second-block">
+              <h3
+                class="instruction-second-step__item-subtitle second-block-subtitle"
+              >
+                Collect Subscribers
+              </h3>
+              <h1
+                class="instruction-second-step__item-title second-block-title"
+              >
+                <span>Emails. Phone #s.</span>All Yours.
+              </h1>
+            </div>
+            <div class="instruction-second-step__btn">
+              <button class="btn btn_blue btn-step">Get Started</button>
             </div>
           </div>
         </div>
@@ -202,6 +216,60 @@
           </div>
         </div>
       </div>
+      <div class="feedback">
+        <h1 class="title feedback-title">Experts Agree</h1>
+        <img class="feedback__item" src="" alt="" />
+      </div>
+      <div class="motivation">
+        <h1 class="title motivation-title">
+          We've helped over 1,000 creatorsre claim control of their audience.
+        </h1>
+      </div>
     </section>
+    <footer class="footer">
+      <div class="get-start">
+        <img src="" alt="" class="logo" />
+        <h1 class="title get-start-title">Get Started Now</h1>
+        <h2 class="subtitle get-start-subtitle">
+          Setup is easy and takes under 5 minutes.
+        </h2>
+        <button class="btn btn_blue">Get Started Now</button>
+        <div class="head-counter">
+          <div class="head-counter__dot"></div>
+          <div class="head-counter__count">1000+</div>
+          <p class="head-counter__text">creators have already started</p>
+        </div>
+      </div>
+      <div class="footer-menu">
+        <div class="footer-wrapper">
+          <div class="footer-logo">
+            <img class="logo" src="" alt="" class="logo" />
+            <p class="logo-text__item">Marico</p>
+          </div>
+          <a
+            href="mailto:info@marico.com"
+            class="footer-mail"
+            style="color: aliceblue"
+            >info@marico.com</a
+          >
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li class="footer-list__item">
+          <a href="" class="footer-list__link">About</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="" class="footer-list__link footer-list__link_blue"
+            >Pricing</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <a href="" class="footer-list__link">Blog</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="" class="footer-list__link">Sign in</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

@@ -1,14 +1,27 @@
 .btn {
+  width: 313px;
+  height: 77px;
   color: #fff;
   text-decoration: none;
   border-radius: 12px;
   background: none;
   cursor: pointer;
-  border: #326cf9;
   &_blue {
-    background: #326cf9;
+    background-color: #326cf9;
+    border: 1px solid #326cf9;
   }
-  &:hover {
-    box-shadow: 0 0 15px 10px rgb(16 114 255 / 20%);
+  &_gray {
+    background-color: #0e0e0e;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  &_no-color {
+    background-color: none;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  &-step {
+    width: 207px;
+    height: 65px;
   }
 }

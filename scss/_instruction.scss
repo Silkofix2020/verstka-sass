@@ -4,6 +4,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 200px;
     &__item {
       width: 443px;
       color: #ffffff;
@@ -38,4 +39,132 @@
 }
 .instruction-title {
   margin-bottom: 64px;
+}
+
+.instruction-step {
+  text-align: center;
+  &__subtitle {
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #3d82f2;
+  }
+  &__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #707070;
+    padding-bottom: 34px;
+  }
+  &__head {
+    margin: 0 auto;
+    width: 929px;
+    padding-bottom: 182px;
+  }
+}
+.step-content {
+  display: flex;
+  width: 1734px;
+  justify-content: space-between;
+  margin-left: 182px;
+  &__item {
+    width: 686px;
+  }
+  &__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    padding-bottom: 80px;
+  }
+  &__title {
+    margin: 0;
+    width: 548px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    padding-bottom: 29px;
+    &_blue {
+      color: #3c82f4;
+    }
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: my-counter;
+    text-align: left;
+    &-item {
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 34px;
+      color: #ffffff;
+      counter-increment: my-counter;
+      padding-bottom: 13px;
+      &:nth-child(2) {
+        padding-bottom: 66px;
+      }
+      &::before {
+        content: counter(my-counter);
+        width: 33px;
+        height: 33px;
+        background: #2d2d2d;
+        border-radius: 50%;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        margin-right: 12px;
+      }
+    }
+  }
+  &__btns {
+    width: 438px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.instruction-second-step {
+  margin: 0 auto;
+  width: 1731px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  &__item {
+    position: relative;
+    width: 854px;
+    height: 666px;
+    background: #0d0d0d;
+    &-subtitle {
+      margin: 0;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 45px;
+      color: #0fc65c;
+      padding: 33px 0 24px 45px;
+    }
+    &-title {
+      margin: 0;
+      width: 623px;
+      font-weight: 600;
+      font-size: 80px;
+      color: #ffffff;
+      padding-left: 45px;
+      &_gray {
+        color: #919191;
+        padding-left: 0;
+      }
+    }
+    &-img {
+      position: absolute;
+      top: 328px;
+      left: 66px;
+    }
+  }
 }
